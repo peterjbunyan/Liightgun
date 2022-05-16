@@ -65,7 +65,7 @@ Wire Wire Line
 	6100 2350 5350 2350
 Wire Wire Line
 	6100 2450 5350 2450
-Text GLabel 6750 2900 2    50   Output ~ 0
+Text GLabel 6250 3100 2    50   Output ~ 0
 CLK
 Text GLabel 5350 2250 0    50   Output ~ 0
 CLK
@@ -109,17 +109,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 2450 6600 2450
 $Comp
-L Device:C C4
-U 1 1 5DBC4357
-P 6600 3250
-F 0 "C4" H 6715 3296 50  0000 L CNN
-F 1 "10nF" H 6715 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6638 3100 50  0001 C CNN
-F 3 "~" H 6600 3250 50  0001 C CNN
-	1    6600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5DBC553F
 P 4850 3100
@@ -159,12 +148,7 @@ Wire Wire Line
 Connection ~ 4850 2950
 Connection ~ 4850 3250
 Wire Wire Line
-	6600 3100 5950 3100
-Wire Wire Line
-	6600 3100 6600 2900
-Wire Wire Line
-	6600 2900 6750 2900
-Connection ~ 6600 3100
+	6250 3100 5950 3100
 Wire Wire Line
 	2850 2950 2700 2950
 Wire Wire Line
@@ -256,14 +240,9 @@ Connection ~ 5250 2800
 Wire Wire Line
 	4850 2800 5250 2800
 Wire Wire Line
-	6600 3400 6600 3600
-Wire Wire Line
-	6600 3600 5650 3600
-Wire Wire Line
 	4850 3250 4850 3600
 Wire Wire Line
 	5650 3400 5650 3600
-Connection ~ 5650 3600
 Wire Wire Line
 	5650 3600 4850 3600
 $EndSCHEMATC
